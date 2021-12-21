@@ -4,6 +4,12 @@
 ANY TEXT BETWEEN THE ASTERISKS AND THE FORWARD SLASH 
 IS KNOWN AS A MULTI-LINE COMMENT*/
 
+
+/* 
+~ EVERY LINE OF CODE THAT RUNS IN JAVA MUST BE INSIDE A CLASS
+~ HERE OUR CLASS IS NAMED HelloWorld
+~ THE NAME OF THE JAVA FILE MUST MATCH THE NAME OF THE CLASS
+*/
 public class HelloWorld {
     public static void main(String[] args) {
       System.out.println("Hello World!");
