@@ -11,7 +11,13 @@ IS KNOWN AS A MULTI-LINE COMMENT*/
 ~ THE NAME OF THE JAVA FILE MUST MATCH THE NAME OF THE CLASS
 */
 public class HelloWorld {
+  /*
+  ~ THE main() METHOD IS REQUIRED AND USED IN EVERY JAVA PROGRAM
+  ~ ANY CODE INSIDE THE main() METHOD WILL BE EXECUTED
+ */
     public static void main(String[] args) {
+      /*  ~ THE println() PRINTS OUT A LINE OF TEXT TO THE SCRESS
+          ~ EACH CODE STATEMENT MUST END WITH A SEMI-COLON */
       System.out.println("Hello World!");
     }
   }
