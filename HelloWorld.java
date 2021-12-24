@@ -31,8 +31,24 @@ public class HelloWorld {
 
 
       // TO CREATE A VARIABLE, FIRST SPECIFY THE TYPE, THEN ASSIGN IT TO A VALUE
-      String name = "Octavia";
+      String name = "Octavia"; //THIS IS A STRING
       System.out.println(name);
+      
+
+      int num = 18; //THIS IS AN INTEGER
+      System.out.println(num);
+
+
+      float floatnum = 12; //THIS IS A FLOAT
+      System.out.println(floatnum);
+
+
+      char character = 'a'; //This is a character, characters are stored in single quotes
+      System.out.println(character);
+
+
+      boolean bool = true; // THIS IS A BOOLEAN
+      System.out.println(bool);
     }
   }// THE CURLY BRACES MARK THE BEGINNING AND END OF A BLOCK OF CODE
 
