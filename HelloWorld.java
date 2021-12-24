@@ -28,5 +28,12 @@ public class HelloWorld {
       */
 
       System.out.println("Hello World, it's Octavia!");
+
+
+      // TO CREATE A VARIABLE, FIRST SPECIFY THE TYPE, THEN ASSIGN IT TO A VALUE
+      String name = "Octavia";
+      System.out.println(name);
     }
   }// THE CURLY BRACES MARK THE BEGINNING AND END OF A BLOCK OF CODE
+
+
