@@ -32,23 +32,23 @@ public class HelloWorld {
 
       // TO CREATE A VARIABLE, FIRST SPECIFY THE TYPE, THEN ASSIGN IT TO A VALUE
       String name = "Octavia"; //THIS IS A STRING
-      System.out.println(name);
+      System.out.println(String.format("My name is %s", name)); //THIS IS HOW TO STRING FORMAT
       
 
-      int num = 18; //THIS IS AN INTEGER
-      System.out.println(num);
+      int num = 19; //THIS IS AN INTEGER
+      System.out.println(String.format("My age is %s", num));
 
 
       float floatnum = 12; //THIS IS A FLOAT
-      System.out.println(floatnum);
+      System.out.println(String.format("A random number I chose is %s", floatnum));
 
 
       char character = 'a'; //This is a character, characters are stored in single quotes
-      System.out.println(character);
+      System.out.println(String.format("The alphabet starts with the letter %s", character));
 
 
       boolean bool = true; // THIS IS A BOOLEAN
-      System.out.println(bool);
+      System.out.println(String.format("An example of a boolean is %s", bool));
     }
   }// THE CURLY BRACES MARK THE BEGINNING AND END OF A BLOCK OF CODE
 
