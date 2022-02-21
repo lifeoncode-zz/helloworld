@@ -49,6 +49,22 @@ public class HelloWorld {
 
       boolean bool = true; // THIS IS A BOOLEAN
       System.out.println(String.format("An example of a boolean is %s", bool));
+      
+      
+      long longnum = 12; // This is a long... kinda useless, because it takes up to much memory. It is a INT data type that takes up space
+      System.out.println(String.format("This is a long %s", longnum));
+      
+      
+      double doublenum = 11.11; // This is a double. It is a float that saves space.
+      System.out.println(String.format("This is a double %s", doublenum));
+      
+      
+      byte bytenum = 22; //This is basically an integer... The internet says "an 8-bit signed two's complement integer".
+      System.out.println(String.format("This is a byte %s", bytenum));
+      
+      
+      short shortnum = 33; //Again this is an integer... The internet says "a 16-bit signed two's complement integer".
+      System.out.println(String.format("This is a short %s", shortnum));
     }
   }// THE CURLY BRACES MARK THE BEGINNING AND END OF A BLOCK OF CODE
 
